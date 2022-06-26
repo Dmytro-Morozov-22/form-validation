@@ -1,0 +1,41 @@
+<!-- http://localhost:3000/index_10.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>10_homework</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link rel="shortcut icon" href="jquery-logo.png" type="image/x-icon">
+<link rel="stylesheet" href="style_10.css">
+</head>
+<body>
+
+	<section id="info">
+		 <h4>Please, use this address:</h4>
+       <p>http://localhost:3000/index_10.html</p>
+	</section>
+       
+	<div id="wrap">
+		<form action="">
+			<input id="name" type="text" placeholder="Name" maxlength="23">        <label id="message1" class="hide">wrong value</label>
+			<input id="surname" type="text" placeholder="Surname" maxlength="23">  <label id="message2" class="hide">wrong value</label>
+			<input id="age" type="text" placeholder="Age" maxlength="3">           <label id="message3" class="hide">wrong value</label>
+			<input id="location" type="text" placeholder="Location" maxlength="23"><label id="message4" class="hide">wrong value</label>
+			<input id="getButton" type="button"  value="Get"> <!-- onclick="sendByGet()" -->
+			<input id="postButton" type="button" value="Post">  <!-- onclick="sendByPost()" -->
+		</form>
+	</div>
+	<section class="fillOutForm hide"><h4>Please, fill out the form</h4></section>
+	
+	<div id="receivedInfo">
+		<ul>
+			<li class="one"></li>
+			<li class="two"></li>
+			<li class="three"></li>
+			<li class="four"></li>
+		</ul>
+	</div>
+	
+	<script type="text/javascript" src="code_10.js"></script>
+</body>
+</html>

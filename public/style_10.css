@@ -1,0 +1,126 @@
+div{
+	width: 259px;
+	display: block;
+	margin: 120px auto 0 auto;
+	padding: 6px;
+	border-radius: 2px;
+	box-shadow: 0 0 5px 5px rgba(151, 112, 53, 0.2);
+	background-color: rgba(151, 112, 53, 0.2);	
+}
+
+div form input[type=text]{
+	width: 243px;
+	padding: 7px; 
+	margin-bottom: 4px;
+	display: block;
+	outline: none;
+	border-color: white;
+	border: 1px solid #6f7408;
+	border-radius: 2px;
+	background-color: #e9e7db;
+	color: #6f7408;
+}
+
+div form input[type=text]::placeholder{
+	color: #362917;
+	font-weight: normal;
+}
+
+div form input[type=button]{ 
+	padding: 3px; 
+	width: 127px;
+	font-size: 12px;
+	border: 1px solid #6f7408;
+	border-radius: 2px;
+	cursor:pointer;
+	transition: background-color 1s linear 0s;
+	background-color: #e9e7db;
+	color: #362917;
+}
+
+div form input[type=button]:hover{
+	background-color: #eae100;	
+}
+
+div form input[type=button]:focus{
+	outline: 0;	
+}
+
+div form .accepted{
+	background-color: #80ff80;
+	color: #6f7408;
+}
+
+.hide{
+	display: none;
+}
+
+label {
+	position: absolute;
+	display: block;
+	margin-top: -29px;
+	margin-left: 183px;
+	font-size: 13px;
+	color:#977035;
+}
+
+section {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+    transform: translateX(-50%)
+}
+
+.fillOutForm{
+	top: 320px;
+}
+
+section * {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+section h4{
+	color: #977035
+}
+
+section p{
+	margin-top: 5px;
+	color: #6f7408;
+}
+
+#receivedInfo{
+	box-shadow: none;
+	background-color: white;	
+}
+
+
+#receivedInfo ul{
+	 padding-left: 0;
+	 
+}
+
+
+#receivedInfo ul li{
+	list-style-type: none;
+	text-align: center;
+	padding: 3px;
+	color: #362917
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
